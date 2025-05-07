@@ -47,10 +47,6 @@
 
 ;; then initialize vertico-posframe (after vertico is set up)
 (when (require 'vertico-posframe nil t)
-  ;; Set a lighter background color for the posframe
-  (setq vertico-posframe-parameters
-        '((background-color . "#383a59")))  ;; Lighter purple/blue than Dracula's background
-  
   ;; Set up a thick border with color
   (setq vertico-posframe-border-width 3)
   (setq vertico-posframe-border-color "pale violet red") ;; does not work?
